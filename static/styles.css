@@ -1,0 +1,137 @@
+.predictor{
+  background-image: -webkit-linear-gradient(65deg, #083a66 50%, #6eb8fa 50%);
+  text-align: center;
+  height: 100vh;
+}
+
+h2.title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 5%;
+}
+
+h3#result{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  padding: 1%;
+}
+
+#disclaimer{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+p{
+  font-family: "Garamond", serif;
+  font-size: 20px;
+}
+
+h3.info-head{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 30px 0;
+  font-size: 1.5rem;
+}
+
+h2.about{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 3%;
+  font-size: 3rem;
+
+}
+
+.disclaim-info{
+  font-size: 20px;
+  line-height: 2;
+}
+
+.disclaim-info span{
+  font-weight: 900;
+  letter-spacing: 1px;;
+}
+
+.image-section{
+  text-align: center;
+}
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    /* border: 5px solid #023059;
+    box-shadow: 0px 2px 4px 0px #023059; */
+    margin: 2rem auto;
+
+
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #083a66;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #052038;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 1rem auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.foot{
+  padding: 3%;
+  text-align: center;
+  background-color: #6eb8fa;
+}
+
+.foot p{
+  font-family: "EB Garamond", serif;
+}
+
+#about-data{
+  text-align: center;
+  padding: none;
+  margin: none;
+  padding-bottom: 2%;
+}
+
+p.info{
+  margin: 0 5%;
+}
+
+hr{
+  border: none;
+  border-top: 10px dotted #b5bab6;
+  width: 5%;
+  margin: 30px auto;
+}
