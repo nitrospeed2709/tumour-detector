@@ -8,3 +8,4 @@ keras-preprocessing==1.1.2
 gunicorn==20.1.0
 flask==2.0.2
 werkzeug==2.0.1
+h5py==3.2.1
